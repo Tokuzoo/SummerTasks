@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.greeting{
+    text-align: center;
+}
+
+button{
+    font-family: "Noto Sans JP", sans-serif;
+    color: white;
+    font-size: 103%;
+    text-align: center;
+    height: 50px;
+    width: 45%;
+    border-radius: 25px;
+    background: #6fa24a;
+    margin: 17px 0 17px 0;
+}

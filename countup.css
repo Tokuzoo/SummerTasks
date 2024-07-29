@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#start{
+    width: 120px;
+    margin: auto;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    color: #27acd9;
+    display: block;
+    background: white;
+}
+
+#main{
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'sans-selif';
+}
+
+#main_table{
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.txts{
+    margin-left: 8px;
+    padding-left: 5px;
+    border-left: 2px solid gold;
+}
+
+a.btn_02 {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: #fff;
+	transition: 0.5s;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.pressed{
+    background: gray;
+}
+
+.time{
+    font-size: 230%;
+    margin-top: 5px;
+}
+
+/* --- */
+.none{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}

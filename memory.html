@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Concentration</title>
+    <link rel="stylesheet" href="memory.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info" id="info">
+        <h2 class="title">暗記力テストへようこそ。</h2>
+        <div class="txts">
+            <p>神経衰弱だよ。</p>
+            <p>カードをタップするとめくれるよ。</p>
+            <p>ゲームをクリアすると、クリアにかかったターン数が表示されるから、それを自分でメモしてね。</p>
+        </div>
+        <input type="button" id="start" class="start" value="スタート！">
+    </div>
+
+    <div class="main hide" id="main"></div>
+
+    <div class="clear hide" id="clear">
+        <h2>ゲームクリア！</h2>
+        <p id="turndisp"></p>
+    </div>
+
+    <footer>
+        <a href="index.html" class="btn_02">タイトルへ戻る</a>
+    </footer>
+
+    <audio src="crap.mp3"></audio>
+    <script src="memory.js" defer></script>
+</body>
+</html>

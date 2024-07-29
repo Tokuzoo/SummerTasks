@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Calc</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main id="main">
+        <h2 class="title">計算力テストへようこそ。</h2>
+        <div class="txts">
+            <p>スタートボタンを押すと10個の計算問題が出るので、本気で解いてね。</p>
+            <p>解き終わったら、「答表示」を押してね。答えが出て、タイムが表示されるよ。</p>
+            <p>表示されたタイムと間違えた問題数を、自分でメモしてね。</p>
+        </div>
+        <button id="start">スタート！</button>
+    </main>
+
+    <div id="disp_page">
+        <button id="toggle_btn">答表示</button>
+        <p id="time"></p>
+    </div>
+
+    <footer>
+        <a href="index.html" class="btn_02">タイトルへ戻る</a>
+    </footer>
+
+    <script src="calc.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

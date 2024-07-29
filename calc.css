@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'sans-selif';
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.txts{
+    margin-left: 8px;
+    padding-left: 5px;
+    border-left: 2px solid gold;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+
+#start{
+    width: 120px;
+    margin: auto;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    color: #27acd9;
+    display: block;
+    background: white;
+}
+
+.problems_disp,.ans_disp{
+    padding-top: 19px;
+    font-size: 120%;
+    padding-left: 5px;
+}
+
+#toggle_btn{
+    width: 120px;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    color: #27acd9;
+    background: white;
+}
+
+a.btn_02 {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: #fff;
+	transition: 0.5s;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.time{
+    font-size: 230%;
+    margin-top: 5px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ----- */
+
+.hidden{
+    display: none;
+}
