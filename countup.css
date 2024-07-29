@@ -12,6 +12,7 @@
 #start{
     width: 120px;
     margin: auto;
+    margin-top: 20px;
     padding: 1rem 1rem;
     font-weight: bold;
     border: 2px solid #27acd9;
@@ -28,6 +29,7 @@
 
 #main_table{
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 .center{
@@ -40,6 +42,7 @@
     margin-left: 8px;
     padding-left: 5px;
     border-left: 2px solid gold;
+    line-height: 30px;
 }
 
 a.btn_02 {
